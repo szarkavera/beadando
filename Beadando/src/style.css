@@ -1,0 +1,267 @@
+* 
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+body
+{
+	-webkit-touch-callout: none;          
+    -webkit-text-size-adjust: none;  
+    
+	
+	margin: 0;
+	padding: 0;
+	font-family:"std", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: rgb(72, 66, 66);
+	background: #f3eaea;
+}
+#title-bar
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background: rgb(0, 255, 76);
+}
+h1
+	{
+		width: 90%;
+		max-width: 500px;
+		margin: 0 auto;
+		color: #fff;
+		font-size: 100%;
+		font-family: "high";
+		font-weight: lighter;
+		padding-top: 17px;
+	}
+		h1 i
+		{
+			margin-right: 10px;
+		}
+#main > .inside
+{
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+h2
+{
+	font-family: "high";
+	font-weight: lighter;
+	color: rgb(0, 0, 0);
+	text-align: center; 
+	font-size: 135%;
+	margin: 0;
+	margin-bottom: 25px;
+    margin-top: 10px;
+}
+h3
+{
+	font-family: "high";
+	font-weight: lighter;
+	color: #444;
+	font-size: 120%;
+	margin: 0;
+	margin-bottom: 15px;
+}
+p
+{
+	margin: 0;
+	margin-bottom: 15px;
+    text-align: center;
+}
+a
+{
+	color: rgb(236, 71, 21);
+}
+a:hover
+{
+	color: rgb(172, 67, 32);
+}
+a:active
+{
+	color: rgb(38, 9, 32);
+}
+table
+{
+	margin-bottom: 25px;
+	box-shadow: 0 2px 25px rgba(0,0,0,0);
+	width: 100%;
+	border-collapse: collapse;
+}
+table thead
+{
+    color: #666;
+    border-bottom: 1px solid #e4e4e4;
+}
+    table td,
+    table th
+    {
+        padding: 10px 20px;
+    }
+    table tbody tr:nth-child(odd)
+    {
+        background: #f2f2f2;
+    }
+    table tbody tr:hover
+    {
+        color: rgb(48, 1, 1);
+    }
+
+    form,
+    section > div
+    {
+        padding: 25px;
+        background: rgb(249, 219, 219);
+        margin: 0;
+        margin-bottom: 25px;
+        text-align: center;
+        box-shadow: 0 2px 25px rgba(246, 226, 226, 0);
+    }
+    form p.message
+	{
+		color: rgb(242, 105, 109);
+		padding-bottom: 10px;
+		margin-bottom: 15px;
+		border-bottom: 1px solid rgb(240, 130, 165);
+	}
+	form > div
+	{
+		margin-bottom: 15px;
+	}
+    form label
+    {
+        font-size: 95%;
+        display: block;
+        margin-bottom: 5px;
+    }
+    form input
+    {
+        background: #f4f4f4;
+        border: 1px solid #e4e4e4;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: "std";
+        color: rgb(92, 91, 91);
+        width: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: 0;
+        border-radius: 0;
+    }
+    form button
+		{
+			background: rgb(130, 52, 52);
+			border: 0;
+			padding: 10px;
+			box-sizing: border-box;
+			font-size: 105%;
+			text-transform: uppercase;
+			font-family: "high";
+			font-weight: lighter;
+			color: #fff;
+			width: 100%;
+			outline: 0;
+			cursor: pointer;
+			max-width: 300px;
+		}
+		form button:hover
+		{
+			background: rgb(143, 69, 72);
+		}
+		form button:active
+		{
+			background: rgb(73, 8, 8);
+		}
+.summary h3
+{
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+.summary p
+{
+	font-size: 120%;
+}
+.summary a
+{
+	display: inline-block;
+	padding: 10px 0;
+}
+.basicItem
+{
+	background: rgba(0,0,0,0);
+}
+
+.itemPrice
+{
+	margin-left: 5px;
+}
+
+.upd
+{
+	margin-left: 5px;
+}
+
+.save
+{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.newPriceLbl
+{
+    margin-top: 15px;
+}
+#navigation-bar
+{
+	position: fixed;
+	left: 0;
+	width: 110%;
+}
+    #navigation-bar > ul
+    {
+        width: 90%;
+        height: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+}
+#navigation-bar > ul li
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+    #navigation-bar > ul li a
+    {
+        display: block;
+        text-decoration: none;
+        color: rgb(241, 21, 21);
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: large;
+        text-align: center;
+    }
+    #navigation-bar > ul li a:hover
+    {
+        background: rgba(0,0,0, 0.2);
+    }
+    #navigation-bar > ul li a:active
+	{
+		background: rgba(0,0,0, 0.1);
+	}
+
+
+
